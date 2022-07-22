@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "us-east-1"
-  access_key = "AKIAZIWQB7RP4C7XY77K"
-  secret_key = "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"
+  access_key = "********"
+  secret_key = "*******"
 }
 
 
@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "b" {
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
+    Name        = "My bucket demo"
+    Environment = "pdp"
   }
 }
