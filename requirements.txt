@@ -1,3 +1,3 @@
-Will learn hoe to execute Terraform script execution through jenkins pipeline by using web hook
+Will learn how to execute Terraform script execution through jenkins pipeline by using web hook
 reuirements
 - an ec2 instance with jenkins setup
