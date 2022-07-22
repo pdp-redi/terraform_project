@@ -1,7 +1,7 @@
 provider "aws" {
-  region  = "us-east-1"
-  access_key = "********"
-  secret_key = "*******"
+  region  = var.region
+  access_key = "AKIAZIWQB7RP4C7XY77K"
+  secret_key = "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"
 }
 
 
@@ -13,4 +13,8 @@ resource "aws_s3_bucket" "b" {
     Name        = "My bucket demo"
     Environment = "pdp"
   }
+}
+ 
+variable "region" {
+
 }
