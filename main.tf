@@ -1,7 +1,7 @@
 provider "aws" {
-  region  = var.region
-  access_key = "AKIAZIWQB7RP4C7XY77K"
-  secret_key = "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"
+  region = "us-east-2"
+  shared_credentials_file = "~/.aws/credentials"
+  profile = "default"
 }
 
 
@@ -14,7 +14,4 @@ resource "aws_s3_bucket" "b" {
     Environment = "pdp"
   }
 }
- 
-variable "region" {
 
-}
